@@ -1,0 +1,52 @@
+#Clockontainer{
+margin: auto;
+margin-top: 80px;
+ height: 40vw;
+ width: 40vw;
+ background: url(clock3.png) no-repeat;
+ background-size: 100%;   
+}
+
+#hour, #minute, #second{
+    position: relative;
+    background: whitesmoke;
+    border-radius: 10px;
+    display: inline-block;
+    bottom: 400px;
+}
+#hour{
+    width: 2.2%;
+    height: 25%;
+    top: 12%;
+    left: 50.1%;
+    transform-origin: bottom;
+    background-color:whitesmoke;
+}
+#minute{
+    width: 1.5%;
+    height: 32%;
+    top: 12%;
+    left: 48%;
+    transform-origin: bottom;
+    background-color: whitesmoke;
+}
+#second{
+    width: 1%;
+    height: 37%;
+    top: 12%;
+    left: 46.3%;
+    transform-origin: bottom;
+    background-color: whitesmoke;
+}
+.circle{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color:#f5f5f5;
+    border-radius: 100%;
+    left: 656.5px;
+    bottom: 284px;
+}
+body{
+    background-color: #65a2e7;
+}
